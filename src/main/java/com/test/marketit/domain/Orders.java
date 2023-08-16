@@ -1,6 +1,7 @@
 package com.test.marketit.domain;
 
 import lombok.*;
+import org.hibernate.annotations.BatchSize;
 import org.hibernate.annotations.CreationTimestamp;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import javax.persistence.*;
@@ -24,6 +25,7 @@ public class Orders {
     @CreationTimestamp
     private Timestamp registerDate;
 
+    @BatchSize(size = 100)
     @OneToMany(mappedBy = "orders")
     private List<OrderProducts> orderProducts;
 
