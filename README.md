@@ -25,20 +25,21 @@ id : marketit
 pass : 1234
 로그인이 안되시면 JDBC URL : "jdbc:h2:mem:~/test" 이렇게 설정하신 후 접속 부탁드립니다!
 
+<img width="457" alt="스크린샷 2023-08-16 오후 1 52 59" src="https://github.com/gwon7210/marketit/assets/52650061/86701114-e545-4b4b-805f-364b4437bfff">
+
+
 body구조체 설명과 테스트는 스웨거를 통해 공유드립니다.  
 <http://localhost:80/swagger-ui/index.html#>
 
 우선 "/orders/list/all" 통해 전체 orders_id를 확인하신 후,
 다른 api 테스트 해보시는걸 추천 드립니다 :)
 
-<img width="1148" alt="스크린샷 2023-08-16 오후 12 58 30" src="https://github.com/gwon7210/marketit/assets/52650061/d3215260-e482-4b48-b052-7b5fd9573253">
-
+<img width="765" alt="스크린샷 2023-08-16 오후 1 53 14" src="https://github.com/gwon7210/marketit/assets/52650061/8bda0dff-fac8-4eaa-9d03-31b9ea76bc56">
 
 잘 부탁드립니다. 감사드립니다!
 
 ERD  
-<img width="1148" alt="스크린샷 2023-08-16 오후 12 58 30" src="https://github.com/gwon7210/marketit/assets/52650061/7b84a7f6-d1fd-49ef-95a7-71838e808d0d">
-
+<img width="509" alt="스크린샷 2023-08-16 오후 1 54 10" src="https://github.com/gwon7210/marketit/assets/52650061/f7029641-3f9e-464d-a456-fa6a28f2fc3d">
 
 java ver : 1.8  
 spring boot ver: 2.7.15  
