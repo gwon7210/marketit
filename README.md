@@ -18,6 +18,13 @@
 
    : /orders/list/{userName}
 
+  
+ERD  
+
+<img width="509" alt="스크린샷 2023-08-16 오후 1 54 10" src="https://github.com/gwon7210/marketit/assets/52650061/f7029641-3f9e-464d-a456-fa6a28f2fc3d">  
+
+주문 접수가 발생하면, 하나의 orders이 생성되고 주문 상품의 수만큼 orderProducts가 생성됩니다. 
+주문 단일 조회는 ordersId로 조회하며, 주문 목록 조회는 userName으로 조회하면 해당 유저의 주문 목록이 조회됩니다.
 
 가)  
 5개 정도의 주문 테스트 케이스가 실행시 저장됩니다. 테스트 케이스는 "resources/h2/data.sql" 파일에서 수정 가능합니다.  
@@ -40,10 +47,6 @@ body구조체 설명과 테스트는 스웨거를 통해 공유드립니다.
 
 잘 부탁드립니다. 감사드립니다!  
   
-  
-ERD  
-<img width="509" alt="스크린샷 2023-08-16 오후 1 54 10" src="https://github.com/gwon7210/marketit/assets/52650061/f7029641-3f9e-464d-a456-fa6a28f2fc3d">
-
 java ver : 1.8  
 spring boot ver: 2.7.15  
 in-memory db : h2 
